@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./travelBloom.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div id="navbar-container">
+      <h2>Contact Us</h2>
+      <nav>
+        <ul id="navbar-list">
+          <li><a href="./index.html">Home </a></li>
+          <li><a href="./AboutUs.html">About Us</a></li>
+          <li><a href="#ContactUs-container">Contact Us </a></li>
+        </ul>
+      </nav>
+      <div id="search-container">
+        <input
+          type="text"
+          name="search"
+          id="search-input"
+          placeholder="Enter a Destination or keyword"
+        />
+        <button id="search-bttn">Search</button>
+        <button id="clear-bttn">Clear</button>
+      </div>
+    </div>
+    <div id="ContactUs-container">
+      <div id="ContactUs-description">
+        <span>Contact Us</span>
+        <div>Get in touch.</div>
+      </div>
+      <div id="ContactUs-SubmitForm">
+        <form id="submit-form">
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text" placeholder="Your Name..." />
+        
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" placeholder="Your Email..." />
+        
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Your Message..." rows="4"></textarea>
+        
+            <button type="submit" id="submit-bttn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

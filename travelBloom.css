@@ -1,0 +1,522 @@
+
+
+body {
+    background-image: url('./backgroundImage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    z-index: -1;
+  }
+
+#navbar-container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    border: black solid 1px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.5); 
+    border-radius: 20px;
+}
+
+#navbar-list {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;           
+    list-style-type: none;       
+    padding: 0;                   
+    margin: 0;  
+    gap: 20px;                      
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: black solid 1px;
+}
+
+h2 {
+    color: white;
+    margin-left: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#search-container {
+    border-radius: 20px;
+    width:400px;
+    height: 45px;
+    background-color: rgba(197, 206, 214, 0.33);
+    margin-top: 12px;
+}
+
+#search-input {
+    height: 1.5rem;
+    width: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    font-size: 12pt;
+    font-weight: bolder;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+#search-input::placeholder{
+    color: white;
+    font-size: 9pt;
+    text-align: center;
+}
+
+#search-bttn{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(163, 163, 162);
+}
+
+#search-bttn:hover{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(184, 184, 181);
+}
+
+#search-bttn:active{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(221, 221, 219);
+}
+
+#clear-bttn{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(163, 163, 162);
+}
+
+#clear-bttn:hover{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(184, 184, 181);
+}
+
+#clear-bttn:active{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(221, 221, 219);
+}
+
+p {
+    color: white;
+    font-weight: bolder;
+    font-size: 15pt;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size:30pt;
+}
+
+#homepage-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20%;
+    margin: 5%;
+}
+
+#home-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.345); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+#bookNow-bttn{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(163, 163, 162);
+    width: 150px;
+    height: 30px;
+}
+
+
+#bookNow-bttn:hover{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(184, 184, 181);
+    width: 150px;
+    height: 30px;
+}
+
+#bookNow-bttn:active{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(221, 221, 219);
+    width: 150px;
+    height: 30px;
+}
+
+#AboutUs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20%;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+#AboutUs-container span {
+    color:white;
+    font-weight: bolder;
+    font-size: 50pt;
+}
+
+#AboutUs-container p{
+    background-color: rgba(128, 128, 128, 0.55); 
+    padding: 20px;
+}
+
+#team-aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20%;
+    background-color: rgba(128, 128, 128, 0.36); 
+    padding: 20px;
+}
+
+#team-aboutus span { 
+    font-size: 30pt;
+}
+
+#team-member{
+    background-color: rgba(181, 178, 178, 0.87); 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#team-member p{
+    background-color: transparent;
+    margin: 0;
+    font-size: 13pt;
+    font-weight: 100;
+}
+
+#team-member span {
+    font-size: 18pt;
+}
+
+#teamMember-bttn {
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 10pt; 
+    font-weight: bold; 
+    box-shadow: none; 
+    background-color: rgba(224, 248, 243, 0.23);
+    width: 150px;
+    height: 40px;
+}
+
+#ContactUs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20%;
+    margin: 5%;
+}
+
+#ContactUs-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.345); 
+    padding: 20px; 
+    gap: 30px;
+}
+
+#ContactUs-description span {
+    color: white;
+    font-weight: bolder;
+    font-size: 40pt;
+}
+
+#ContactUs-description div {
+    color: white;
+    font-size: 15pt;
+}
+
+#ContactUs-SubmitForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    background-color: rgba(128, 128, 128, 0.345); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+#submit-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    color: white;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+#name, #email, #message {
+    height: 1.5rem;
+    width: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 5px;
+    color: white;
+    font-size: 12pt;
+    font-weight: bolder;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+#name {
+    width: 300px;
+    height: 30px;
+    border: solid black 1px;
+    padding: 10px;
+    margin-bottom:20px;
+    margin-top: 5px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    border: solid black 1px;
+    padding: 10px;
+    margin-bottom:20px;
+    margin-top: 5px;
+}
+
+#message {
+    width: 300px;
+    height: 150px;
+    border: solid black 1px;
+    padding: 10px;
+    margin-bottom:20px;
+    margin-top: 5px;
+}
+
+#name::placeholder{
+    color: white;
+    font-size: 9pt;
+    text-align: center;
+}
+
+#email::placeholder{
+    color: white;
+    font-size: 9pt;
+    text-align: center;
+}
+
+#message::placeholder{
+    color: white;
+    font-size: 9pt;
+    text-align: center;
+}
+
+#submit-bttn {
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(163, 163, 162);
+}
+
+#submit-bttn:hover{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(184, 184, 181);
+}
+
+#submit-bttn:active{
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(221, 221, 219);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.recommend{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.345); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+.recommend p {
+    color: white;
+    font-weight: bolder;
+    margin: 5px;
+    font-size: 12pt;
+}
+
+.recommend span {
+    color: white;
+    font-weight: bolder;
+    margin: 5px;
+    font-size: 20pt;
+}
+
+.recommend-bttn {
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(163, 163, 162);
+    margin: 10px;
+}
+
+.recommend-bttn:hover {
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(191, 191, 187);
+    margin: 10px;
+}
+
+.recommend-bttn:active {
+    border: none; 
+    border-radius: 10px; 
+    padding: 5px 10px; 
+    color: white; 
+    font-size: 14px; 
+    font-weight: bolder; 
+    cursor: pointer; 
+    box-shadow: none; 
+    background-color: rgb(215, 215, 214);
+    margin: 10px;
+}
