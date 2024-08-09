@@ -30,7 +30,7 @@ Contributing
 
 If you would like to contribute to this project, feel free to submit a pull request or open an issue on GitHub.
 
-DemonstrationPictures
+Demonstration Pictures
 
 <img width="1500" alt="Screenshot 2024-08-09 at 04 09 35" src="https://github.com/user-attachments/assets/7d9d70d5-18ed-4d44-8420-24092db2e49f">
 
